@@ -1,0 +1,7 @@
+{
+  "name": "tyesite2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
