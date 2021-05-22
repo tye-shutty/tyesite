@@ -1,0 +1,17 @@
+server {
+    listen 80;
+    server_name tyeshutty.tk;
+
+    root /var/www/html/tye;
+
+    location / {
+    }
+
+    location "/audio" {
+        proxy_pass http://unix:/home/azureuser/Audio/Audio.sock;
+        proxy_connect_timeout       15;
+        proxy_send_timeout          15;
+        proxy_read_timeout          15;
+        send_timeout                15;
+    }
+}
