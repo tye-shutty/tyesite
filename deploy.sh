@@ -1,8 +1,3 @@
-#Only run on server, requires nginx, the build.sh script must be run first, and
-#ChexyAgent.service and ChexyAgent files must be in the ~/ChexyAgent folder
-#dist folder must be in home directory e.g. ~/dist/index.html
-#those files require the user name to be azureuser
-
 cd ~/TyeSite
 sudo apt install nginx
 sudo cp ../Audio/Audio.service /etc/systemd/system/Audio.service

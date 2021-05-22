@@ -67,12 +67,6 @@ const App: React.FC = () => (
             Resume
           </IonButton>
         </IonToolbar>
-            {/* <IonSegmentButton value="Deny"> 
-            Deny
-            </IonSegmentButton>  */}
-          {/* <IonButton
-          href="https://chexy.tk"
-          >Test</IonButton> */}
       </IonHeader>
       <Tab1 />
       <IonFooter>
