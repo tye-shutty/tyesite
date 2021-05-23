@@ -1,6 +1,7 @@
 mkdir ../TyeSite
 cp deploy.sh https_certification.sh TyeSite ../TyeSite
 cp -r tyesite2/build ../TyeSite
+cp favicon.ico ../TyeSite/build
 mv ../TyeSite/build ../TyeSite/tye
 scp -i ../ChexyAIHost_key.pem -r ../TyeSite azureuser@52.138.36.161:~
 rm -r ../TyeSite
