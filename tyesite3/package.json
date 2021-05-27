@@ -1,5 +1,5 @@
 {
-  "name": "tyesite2",
+  "name": "tyesite3",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -21,6 +21,9 @@
     "ionicons": "^5.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-images": "^1.2.0-beta.7",
+    "react-photo-gallery": "^8.0.0",
+    "react-responsive-carousel": "^3.2.18",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",

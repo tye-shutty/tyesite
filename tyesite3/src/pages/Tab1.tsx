@@ -1,6 +1,8 @@
 import React from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, 
-  IonCardSubtitle, IonCardTitle, IonCardContent, IonItem, IonIcon, IonLabel, IonButton } from '@ionic/react';
+  IonCardSubtitle, IonCardTitle, IonCardContent, IonItem, IonIcon, 
+  IonLabel, IonButton, IonFooter } from '@ionic/react';
+import MyFooter from './MyFooter';
 import './Tab1.css';
 
 const Tab1: React.FC = () => (
@@ -32,6 +34,17 @@ const Tab1: React.FC = () => (
         It was made with Vue, Flask-Restful, and MySQL. <a href="https://tyeshutty.tk/audio/info">Open API documentation is here</a>.
       </IonCardContent>
     </IonCard>
+    <IonCard
+      href="/maps"
+      class="card">
+      <IonCardHeader>
+        <IonCardTitle>Maps</IonCardTitle>
+      </IonCardHeader>
+      <IonCardContent>
+        I have made several maps using Corel Draw and ArcGIS.
+      </IonCardContent>
+    </IonCard>
+    <MyFooter />
   </IonContent>
 );
 
