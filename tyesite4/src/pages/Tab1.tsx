@@ -41,7 +41,7 @@ const Tab1: React.FC = () => (
         <IonCardTitle>Maps</IonCardTitle>
       </IonCardHeader>
       <IonCardContent>
-        I have made several maps using Corel Draw and ArcGIS.
+        Some beautiful maps I made using Corel Draw and ArcGIS.
       </IonCardContent>
     </IonCard>
     <MyFooter />

@@ -35,3 +35,5 @@ npx create-react-app tsxapp --template typescript
 have to create typing file for untyped modules: https://stackoverflow.com/a/53786892/8245018
 
 python3 -m http.server
+
+index.html was pointing to the wrong favicon file.

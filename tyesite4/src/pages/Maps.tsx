@@ -31,6 +31,9 @@ const Maps = () => {
     },
     {
       src: "assets/maps/reitsma-vonaderkas-shutty-map1.2.png"
+    },
+    {
+      src: "assets/maps/travelmap4.2.png"
     }
   ];
   // const images = [9, 8, 7, 6, 5].map((number) => ({
