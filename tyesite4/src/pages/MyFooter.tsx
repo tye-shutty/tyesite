@@ -24,7 +24,7 @@ import './Tab1.css';
 const MyFooter: React.FC = () => (
   <IonFooter>
     <IonToolbar>
-      <IonTitle>May 26, 2021</IonTitle>
+      <IonTitle>June 1, 2021</IonTitle>
     </IonToolbar>
   </IonFooter>
 );

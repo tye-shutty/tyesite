@@ -5,7 +5,12 @@ server {
     root /var/www/html/tye;
 
     location / {
+        try_files $uri /index.html;
     }
+
+    # location /maps {
+    #     proxy_pass /;
+    # }
 
     location "/audio" {
         proxy_pass http://unix:/home/azureuser/Audio/Audio.sock;

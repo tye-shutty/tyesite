@@ -49,8 +49,10 @@ const App: React.FC = () => (
     <IonReactRouter>
         <IonRouterOutlet>
           <Route exact path="/">
+            <IonPage>
             <MyNav />
             <Tab1 />
+            </IonPage>
           </Route>
           <Route exact path="/maps">
             <MyNav />

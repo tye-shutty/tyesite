@@ -38,9 +38,13 @@ const Maps = () => {
   // }));
   
   return (
-    <div>
-    <Carousel objectFit='contain' images={images} style={{ height: 800, width: getWindowDimensions()['width'] }} />
-    </div>
+    <IonContent
+      scrollEvents={true}
+      onIonScrollStart={() => {}}
+      onIonScroll={() => {}}
+      onIonScrollEnd={() => {}}>
+      <Carousel objectFit='contain' images={images} style={{ height: getWindowDimensions()['height']-64}} />
+    </IonContent>
   );
 };
 
